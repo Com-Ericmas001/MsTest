@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Com.Ericmas001.MsTest</id>
+    <version>0.1.0</version>
+    <title>Com.Ericmas001.MsTest</title>
+    <authors>Ericmas001</authors>
+    <licenseUrl>https://raw.githubusercontent.com/Com-Ericmas001/MsTest/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Com-Ericmas001/MsTest</projectUrl>
+    <iconUrl>https://github.com/Com-Ericmas001/Common/raw/master/Resources/lib.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Com.Ericmas001.MsTest</description>
+    <summary>Com.Ericmas001.MsTest</summary>
+    <releaseNotes>Development Version</releaseNotes>
+    <copyright />
+    <language>en</language>
+    <dependencies>
+      <dependency id="Expression.Blend.Sdk" version="1.0.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Com.Ericmas001.MsTest\bin\$configuration$\Com.Ericmas001.MsTest.dll" target="lib\net461\" />
+    <file src="Com.Ericmas001.MsTest\bin\$configuration$\Com.Ericmas001.MsTest.pdb" target="lib\net461\" />
+    <file src="Com.Ericmas001.MsTest\bin\$configuration$\Com.Ericmas001.MsTest.xml" target="lib\net461\" />
+  </files>
+</package>
