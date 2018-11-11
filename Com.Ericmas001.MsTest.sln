@@ -3,15 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Ericmas001.MsTest", "Com.Ericmas001.MsTest\Com.Ericmas001.MsTest.csproj", "{FF3C4D63-DFED-45CB-B46B-08DC0ADF188B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{20F64BFB-62EC-43F1-ACF8-B86B27DEDDF0}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		Com.Ericmas001.MsTest.nuspec = Com.Ericmas001.MsTest.nuspec
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Ericmas001.MsTest", "Com.Ericmas001.MsTest\Com.Ericmas001.MsTest.csproj", "{A565EFD6-593F-4E4B-B10A-600CCF5F69DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FF3C4D63-DFED-45CB-B46B-08DC0ADF188B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF3C4D63-DFED-45CB-B46B-08DC0ADF188B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF3C4D63-DFED-45CB-B46B-08DC0ADF188B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF3C4D63-DFED-45CB-B46B-08DC0ADF188B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A565EFD6-593F-4E4B-B10A-600CCF5F69DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A565EFD6-593F-4E4B-B10A-600CCF5F69DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A565EFD6-593F-4E4B-B10A-600CCF5F69DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A565EFD6-593F-4E4B-B10A-600CCF5F69DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
