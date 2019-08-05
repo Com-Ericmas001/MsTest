@@ -61,12 +61,12 @@ namespace Com.Ericmas001.MsTest
         private object ProcessGenericType(Type typeToInvest)
         {
             var genType = typeToInvest.GetGenericTypeDefinition();
-            return Activator.CreateInstance(genType.IsInterface 
-                ? _dictionary[genType].MakeGenericType(typeToInvest.GetGenericArguments()) 
+            return Activator.CreateInstance(genType.IsInterface
+                ? _dictionary[genType].MakeGenericType(typeToInvest.GetGenericArguments())
                 : typeToInvest);
 
         }
-        private Type GetTypeToInvest(object request)
+        private static Type GetTypeToInvest(object request)
         {
             var typeToInvest = (request as PropertyInfo)?.PropertyType;
             if (typeToInvest != null) return typeToInvest;
